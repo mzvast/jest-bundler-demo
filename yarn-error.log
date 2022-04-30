@@ -1,0 +1,41 @@
+Arguments: 
+  /Users/mzvast/.nvm/versions/node/v14.16.1/bin/node /Users/mzvast/.nvm/versions/node/v14.16.1/bin/yarn add chalk yargs jest-haste-ma
+
+PATH: 
+  /usr/local/opt/grep/libexec/gnubin:/usr/local/opt/gnu-tar/libexec/gnubin:/Users/mzvast/.pyenv/plugins/pyenv-virtualenv/shims:/Users/mzvast/.pyenv/shims:/Users/mzvast/.pyenv/bin:/Users/mzvast/.nvm/versions/node/v14.16.1/bin:/Users/mzvast/.nvm/versions/node/v14.16.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Applications/Wireshark.app/Contents/MacOS:/usr/local/opt/grep/libexec/gnubin:/usr/local/opt/gnu-tar/libexec/gnubin:/Users/mzvast/.pyenv/plugins/pyenv-virtualenv/shims:/Users/mzvast/.pyenv/shims:/Users/mzvast/.pyenv/bin:/Users/mzvast/.nvm/versions/node/v14.16.1/bin:/Users/mzvast/.cargo/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  14.16.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.npm.taobao.org/jest-haste-ma: [NOT_FOUND] jest-haste-ma not found
+      at Request.params.callback [as _callback] (/Users/mzvast/.nvm/versions/node/v14.16.1/lib/node_modules/yarn/lib/cli.js:67029:18)
+      at Request.self.callback (/Users/mzvast/.nvm/versions/node/v14.16.1/lib/node_modules/yarn/lib/cli.js:140883:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (/Users/mzvast/.nvm/versions/node/v14.16.1/lib/node_modules/yarn/lib/cli.js:141855:10)
+      at Request.emit (events.js:315:20)
+      at Gunzip.<anonymous> (/Users/mzvast/.nvm/versions/node/v14.16.1/lib/node_modules/yarn/lib/cli.js:141777:12)
+      at Object.onceWrapper (events.js:421:28)
+      at Gunzip.emit (events.js:315:20)
+      at endReadableNT (internal/streams/readable.js:1327:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  {
+    "name": "jest-bundler",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
